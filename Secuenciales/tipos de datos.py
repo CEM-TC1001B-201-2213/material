@@ -1,0 +1,8 @@
+print(type(15))
+print(type(15.0))
+print(type(15j))
+print(type("15"))
+print(type([15]))
+print(type((15,)))
+print(type({15: 15}))
+print(type(True))
