@@ -8,11 +8,7 @@ udf7 = float(input("Introduce la calificación de tu udf7: "))
 
 promedio = (udf1 + udf2 + udf3 + udf4 + udf5 + udf6 + udf7) / 7
 
-print(f"El promedio de tu semestre fue de: {promedio:,.2f}.")
-
-if promedio > 90:
-    print("Fue un excelente semestre.")
-elif promedio >= 80:
-    print("Fue un buen semestre.")
-else:
-    print("Deberías estudiar más.")
+print("El promedio de tu semestre fue de:", promedio, "Felicidades.")
+print("El promedio de tu semestre fue de: " + str(promedio) + " Felicidades.")
+print("El promedio de tu semestre fue de: {0:,.2f} Felicidades".format(promedio))
+print(f"El promedio de tu semestre fue de: {promedio:,.2f} Felicidades.")
